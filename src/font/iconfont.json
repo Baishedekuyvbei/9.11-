@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3262774",
+      "name": "拍摄 录像",
+      "font_class": "paisheluxiang",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "4789373",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    }
+  ]
+}

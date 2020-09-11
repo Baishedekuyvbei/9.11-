@@ -1,18 +1,46 @@
+<!--
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: 白金鑫
+ * @Date: 2020-09-11 08:36:52
+ * @LastEditors: 白金鑫
+ * @LastEditTime: 2020-09-11 09:21:00
+-->
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header>
+       <Header />
+    </header>
+    <main>
+        <router-view />
+    </main>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Header from '../components/header'
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+      Header
   }
 }
 </script>
+
+<style lang="scss">
+    .home{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        header{
+            height: 50px;
+           
+        }
+        main{
+            flex: 1;
+            overflow: auto;
+        }
+    }
+    
+</style>
